@@ -1,0 +1,793 @@
+@media (min-width: 320px) and (max-width: 526px) {
+
+	.timer-section {
+		padding-top: 20px;
+		height: 100%;
+    	padding-bottom: 20px;
+	}
+
+	.timer-section__row-text {
+	    width: 100%;
+	    margin-bottom: 20px;
+	    margin: auto;
+	}
+
+	.timer-section__row-text .col-12 {
+	    justify-content: center;
+	    align-items: center;
+	}
+
+	.timer-section__title {
+		font-size: 24px;
+    	line-height: 40px;
+	}
+
+	.timer-section__text {
+		font-size: 14px;
+    	line-height: 20px;
+	}
+
+	.timer-section__row-timer {
+		margin-top: 60px;
+	}
+
+	.timer__divs {
+		font-size: 12px;
+		width: 30px;
+    	height: 30px;
+	}
+
+	.row-form .form-control,
+	.consulting-section .form-control {
+		height: calc(1.5em + .75rem + -2px);
+	}
+
+	.row-form__btn,
+	.consulting-section .row-form__btn {
+		padding: 5px 10px;
+		font-size: 14px;
+	}
+
+	.row-form .col-12 {
+		align-items: center;
+	}
+
+	.video-section {
+		padding: 19px 0px;
+	}
+
+	.video-section__img {
+		height: 250px
+	}
+
+	.video-section .col-12 {
+		text-align: center;
+	}
+
+	.video-section__img img {
+		width: 46%
+	}
+
+	.work-section,
+	.save-section {
+		padding: 20px
+	}
+
+	.work-section__title,
+	.work-section__title,
+	.logo-section h2,
+	.consulting-section h2 {
+		font-size: 22px;
+	}
+
+	.work-section__text, 
+	.work-section__bonus, .work-section__bonus,
+	.work-section__registr a {
+	    font-size: 14px;
+    	line-height: 23px;
+	}
+
+	.work-section__registr {
+		text-align: center;
+	}
+
+	.work-section__icons {
+		flex-direction: column;
+		margin-top: 25px
+	}
+
+	.work-icon__title {
+		font-size: 16px;
+	}
+
+	 .work-icon__text {
+	 	font-size: 12px;
+	 	padding-top: 7px;
+	 	margin-bottom: 0px;
+	 	line-height: 20px
+	 }
+
+
+	 .work-icon {
+	 	min-height: 209px;
+    	overflow: hidden;
+	 	padding-top: 0;
+	 	margin-top: 5px;
+	 	padding-left: 7px;
+	 	padding-right: 7px;
+	 }
+
+	
+
+	 .work-icon img {
+	    margin-bottom: 15px;
+	    width: 16%;
+	}
+
+	.save-section__text {
+		font-size: 12px;
+	    line-height: 25px;
+	    margin-bottom: 10px;
+	    width: 100%
+	}
+
+	.work-section__title {
+		margin-bottom: 17px;
+	}
+
+	.save-section__price {
+		width: 100%;
+    	padding-bottom: 0;
+	}
+
+	.save-section__spanPrice {
+		padding-top: 20px;
+	}
+
+	.save-section__price > div p {
+		font-size: 10px;
+    	line-height: 15px;
+    	white-space: nowrap;
+	    width: 148px;
+	    overflow: hidden;
+	    text-overflow: ellipsis;
+	}
+
+	.save-section__price > div span, .save-section__price .inp {
+		font-size: 14px;
+		line-height: 14px;
+	}
+
+	.save-section__price-text {
+	    font-size: 10px;
+	    text-align: center;
+	    margin-top: 36px;
+	    margin-right: 0;
+	    width: 100%;
+	}
+
+	input[type="range"]::-webkit-slider-thumb  {
+		height: 7px;
+  		width: 7px;
+  		border: 7px solid #3253A7;
+	}
+
+	.save-section form {
+	    margin-top: 30px;
+	    margin-bottom: 0;
+	}
+
+	.save-section__spanPrice {
+		flex-direction: column!important;
+	}
+
+	.save-section__spanPrice >div:first-child {
+	    align-items: center;
+	}
+
+	.save-section__spanPrice >div:last-child {
+	    align-items: center;
+	}
+
+	.save-section__price .inp {
+		text-align: center;
+	}
+
+	.expert-section {
+		width: 100%;
+		height: 400px
+	}
+
+	.expert-section__card {
+	    width: 100%;
+	    padding: 7px;
+	    position: relative;
+	    top: 0;
+	    left: 0;
+	    z-index: 1;
+	    margin-top: 159px;
+	    margin-left: auto;
+	}
+
+	.expert-section__card h3 {
+		font-size: 16px;
+    	line-height: 20px;
+	}
+
+	.expert-section__card-p {
+		font-size: 12px;
+		line-height: 21px;
+	}
+
+	.card-autor__name {
+		font-size: 16px;
+		line-height: 11px;
+	}
+
+	.card-autor__seo {
+		font-size: 12px;
+		line-height: 20px;
+	}
+
+	.client-section {
+	    padding: 15px;
+	    text-align: center;
+	}
+
+	.client-section__text {
+		font-size: 14px;
+		line-height: 27px;
+	}
+
+	.client__card {
+		width: 100%;
+		padding: 0px 10px 15px 12px;
+		flex-direction: column;
+		margin-top: 60px;
+		height: auto;
+		margin-bottom: 12px;
+	}
+
+	.client__card-text {
+		margin-left: 0
+	}
+
+	.client__card-img {
+		text-align: center;
+	    margin-top: -48px;
+	    margin-bottom: 13px;
+	}
+
+	.client__card-img img {
+		width: 75%
+	}
+
+	.client__card-text {
+	    display: flex;
+	    flex-direction: column;
+	    align-items: flex-start;
+	    margin-left: 0;
+	    margin-bottom: 0px;
+	}
+
+	.client__card-text h6 {
+		font-size: 21px;
+		line-height: 21px;
+	}
+
+	.client__card-text p {
+		font-size: 12px;
+		line-height: 22px;
+		text-align: start;
+	}
+
+	.logo-section {
+	    background: #F5F6FD;
+	    height: auto;
+	    padding-top: 20px;
+	} 
+
+	.logo-section h2 {
+		line-height: 33px 
+	}
+
+	.logo-section ul {
+		margin-top: 25px;
+		flex-direction: column;
+		width: 100%;
+		align-items: center;
+	}
+
+	.logo-section ul:last-child {
+		margin-top: 0
+	}
+
+	.logo-section ul li:hover {
+		box-shadow: none;
+	}
+
+	.consulting-section {
+		height: auto;
+		padding: 15px;
+		padding-top: 109px;
+		padding-bottom: 32px;
+	}
+
+	.consulting-section h2 {
+		line-height: 38px;
+	}
+
+	.consulting-section__dataCenter {
+		font-size: 16px;
+		line-height: 26px;
+	}
+
+	.consulting-section__consulting {
+		font-size: 12px;
+	}
+
+	.consulting-section__conf {
+		font-size: 8px;
+		padding-top: 32px;
+	}
+
+	.consulting-section .form-control {
+	    width: 85%;	
+	}
+
+	.advantage-section {
+		padding-top: 20px;
+    	padding-bottom: 20px;
+	}
+
+	.advantage-section .work-icon:last-child {
+	    margin-top: 20px;
+	}
+
+	#myModal .modal-header h6,
+	#myModalRange .modal-header h6 {
+		font-size: 18px;
+	}
+
+	.triangle {
+		display: none!important;
+	}
+
+	#myModalRange .triangle {
+		display: none!important;
+	}
+
+	#myModal .modal-body,
+	#myModalRange .modal-body {
+		font-size: 14px;
+		padding-top: 30px;
+	}
+
+	#myModal form input,
+	#myModalRange form input  {
+		height: auto;
+	}
+
+	#myModal .modal-body p,
+	#myModalRange .modal-body p {
+		margin-bottom: 45px;
+    	margin-top: 15px;
+	}
+
+	.modal-header .close {
+		top: 46px
+	}
+
+	.modal-header__top {
+		padding-top: 70px;
+		height: auto;
+	}
+
+	.modal-content {
+		width: 90%;
+		margin: auto;
+		padding-bottom: 26px;
+	}
+
+	#myModal .modal-footer p {
+		text-align: center;
+	}
+
+
+}
+
+@media (min-width: 527px) and (max-width: 767px) {
+	.timer-section__title {
+		font-size: 26px;
+	}
+
+	.timer-section__text {
+		font-size: 18px;
+	}
+
+	.row-form__btn,
+	.consulting-section .row-form__btn,
+	.consulting-section .form-control {
+		font-size: 14px;
+		padding: 11px 25px;
+		width: 100%;
+	}
+
+	.video-section {
+		padding: 20px 0px;
+	}
+
+	.video-section__img {
+		height: 300px;
+		text-align: center
+	}
+
+	.video-section__img img {
+		width: 44%
+	}
+
+	.work-section__title,
+	.logo-section h2,
+	.consulting-section h2 {
+		font-size: 24px;
+		margin-bottom: 25px
+	}
+
+	.work-section {
+		padding: 30px
+	}
+
+	.work-section__text, 
+	.work-section__bonus, 
+	.work-section__bonus {
+		font-size: 16px;
+		line-height: 29px
+	}
+
+	.work-section__registr a {
+		font-size: 14px;
+		line-height: 28px
+	}
+
+	.work-icon__title {
+		font-size: 14px;
+	}
+
+	.work-icon__text {
+		font-size: 12px;
+	}
+
+	.work-section__icons {
+		flex-direction: column;
+		margin-top: 30px
+	}
+
+	.work-icon {
+		margin-top: 20px;
+	}
+
+	.save-section {
+		padding-top: 60px;
+	}
+
+	.save-section__text {
+		font-size: 14px;
+		width: 100%;
+		margin-bottom: 36px
+	}
+
+	.save-section__price {
+		width: 100%
+	}
+
+	.save-section__price > div p,
+	.save-section__price > div span, .save-section__price .inp {
+		font-size: 12px;
+	}
+
+	input[type="range"]::-webkit-slider-thumb  {
+		height: 12px;
+  		width: 12px;
+  		border: 7px solid #3253A7;
+	}
+
+	.save-section__price-text {
+		margin: auto;
+		padding-top: 50px;
+		width: 95%;
+		font-size: 12px;
+		text-align: center
+	}
+
+	.save-section form {
+	    margin-top: 30px;
+	    margin-bottom: 30px;
+	}
+
+	.advantage-section .work-icon:last-child {
+	    margin-top: 20px;
+	}
+
+	.expert-section {
+		width: 100%;
+		height: 500px
+	}
+
+	.expert-section__card {
+		position: relative;
+	    top: 0;
+	    left: 0;
+	    right: 0;
+	    z-index: 1;
+	    width: 72%;
+	    padding: 10px;
+	    margin-left: auto;
+    	margin-top: 200px;
+	}
+
+	.expert-section__card h3 {
+		font-size: 20px;
+		line-height: 26px;
+	}
+
+	.expert-section__card-p,
+	.client-section__text,
+	.client__card-text h6,
+	.consulting-section__dataCenter {
+		font-size: 16px;
+		line-height: 28px;
+	}
+
+	.card-autor__name,
+	.client__card-text p,
+	.consulting-section__consulting {
+		font-size: 14px;
+		line-height: 26px;
+	}
+
+	.card-autor__seo,
+	.consulting-section__conf {
+		font-size: 12px;
+		line-height: 22px;
+	}
+
+	.client__card {
+		width: 100%;
+		padding: 10px;
+		margin-top: 35px;
+		height: auto;
+	}
+
+	.client-section,
+	.advantage-section,
+	.logo-section {
+		padding-top: 40px;
+		padding-bottom: 40px;
+	}
+
+	.logo-section {
+		height: auto;
+	}
+
+	.logo-section ul {
+		margin-top: 30px;
+		flex-direction: column;
+	}
+
+	.logo-section ul:last-child {
+		margin-top: 0
+	}
+
+	.triangle {
+		display: none!important;
+	}
+
+	#myModalRange .triangle {
+		display: none!important;
+	}
+
+	#myModal .modal-body
+	#myModalRange .modal-body {
+		font-size: 14px;
+		padding-top: 30px;
+	}
+
+	#myModal form input,
+	#myModalRange form input {
+		height: auto;
+	}
+
+	#myModal .modal-body p,
+	#myModalRange .modal-body p {
+		margin-bottom: 45px;
+    	margin-top: 15px;
+	}
+
+	.modal-header .close {
+		top: 46px
+	}
+
+	.modal-header__top {
+		padding-top: 70px;
+		height: auto;
+	}
+
+	.modal-content {
+		width: 90%;
+		margin: auto;
+		padding-bottom: 26px;
+	}
+
+	#myModal .modal-footer p {
+		text-align: center;
+	}
+
+	
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+	.timer-section__title {
+		font-size: 30px;
+	}
+
+	.timer-section__text {
+		font-size: 18px;
+	}
+
+	.work-icon__title {
+		font-size: 14px;
+	}
+
+	.work-icon__text {
+		font-size: 12px;
+	}
+
+	.work-icon img {
+		width: 20%
+	}
+
+	.work-icon:last-child {
+		margin-top: 17px
+	}
+
+	.work-section__text, .work-section__bonus, .work-section__bonus {
+		font-size: 18px;
+	}
+
+	.work-section {
+		padding-bottom: 60px;
+	}
+
+	.save-section__text {
+		width: 100%;
+		font-size: 16px;
+	}
+
+	.save-section__price > div p {
+		font-size: 16px;
+	}
+
+	.save-section__price > div span, .save-section__price .inp {
+		font-size: 20px;
+	}
+
+	input[type="range"] {
+		width: 59%
+	}
+
+	.save-section__price-text {
+		margin: auto;
+		padding-top: 50px;
+		width: 69%;
+		font-size: 12px;
+		text-align: center
+	}
+
+	.save-section form {
+	    margin-top: 30px;
+	    margin-bottom: 30px;
+	}
+
+	.advantage-section {
+		padding-bottom: 50px;
+	}
+
+	.expert-section {
+		height: 500px
+	}
+
+	.expert-section__card {
+		position: relative;
+	    top: 0;
+	    left: 0;
+	    right: 0;
+	    z-index: 1;
+	    width: 80%;
+	    padding: 20px;
+	    margin-top: 172px;
+    	margin-left: 216px;
+	}
+
+	.expert-section__card h3 {
+		font-size: 22px;
+		line-height: 22px;
+	}
+
+	.expert-section__card-p {
+		font-size: 16px;
+		line-height: 27px;
+	}
+
+	.card-autor__name {
+		font-size: 16px;
+	}
+
+	.card-autor__seo {
+		font-size: 12px;
+	}
+
+	.client-section {
+		padding-top: 50px;
+		padding-bottom: 50px;
+	}
+
+	.client-section__text {
+		font-size: 18px;
+    	line-height: 18px;
+	}
+
+	.client__card-text p {
+		font-size: 16px;
+    	line-height: 30px;
+	}
+
+
+}
+
+
+@media (min-width: 992px) and (max-width: 1200px) {
+	.work-icon__title {
+		font-size: 14px;
+	}
+
+	.work-icon__text {
+		font-size: 12px;
+	}
+
+	.work-icon img {
+		width: 20%
+	}
+
+	.work-icon:last-child {
+		margin-top: 17px
+	}
+
+	.work-section__text, .work-section__bonus, .work-section__bonus, .client__card-text p {
+		font-size: 18px;
+	}
+
+	.work-section {
+		padding-bottom: 60px;
+	}
+
+	.expert-section__card {
+		left: 75%;
+		padding: 20px;
+		width: 68%;
+		padding-left: 81px;
+	}
+
+	.expert-section__card-p {
+		font-size: 16px;
+		line-height: 29px;
+	}
+
+	.client__card {
+		height: auto;
+	}
+
+	.modal-header .close {
+		top: 30px;
+    	right: 10px;
+	}
+}
